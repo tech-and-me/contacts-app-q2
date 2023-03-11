@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Deployment
+This project is deployed on netlity.
+You can view it live from the link below.
+https://640c40761b95cd6d5408375d--joyful-blancmange-38653a.netlify.app/
+
 # Instruction on how to clone this project code
 
 Go to git bash in your local computer, type the following command to clone the project
