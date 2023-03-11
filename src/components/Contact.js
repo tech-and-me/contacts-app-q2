@@ -1,13 +1,22 @@
-import React from 'react';
+import React from "react";
+import { FaEnvelope } from "react-icons/fa";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 
 const Contact = ({ contact }) => {
   const { name, email, phone } = contact;
   return (
-    <div className="card h-100 bg-dark text-white rounded-3 border-3 border-info">
+    <div
+      id="card"
+      className="card h-100 text-white mx-2 p-2 rounded-4 border-2 border-white"
+    >
       <div className="card-body">
-        <h5 className="card-title text-info">{name}</h5>
-        <p className="card-text">{email}</p>
-        <p className="card-text">{phone}</p>
+        <h5 className="card-title text-info"> {name}</h5>
+        <p className="card-text">
+          <FaEnvelope /> {email}
+        </p>
+        <p className="card-text">
+          <FaPhoneSquareAlt /> {phone}{" "}
+        </p>
       </div>
     </div>
   );

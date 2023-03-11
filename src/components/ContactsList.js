@@ -14,10 +14,10 @@ const ContactsList = () => {
   }, []);
 
   return (
-    <div className="container mt-3">
+    <div className="container mt-4">
       <div className="row">
         {contacts.map((contact) => (
-          <div className="col-sm-6 col-md-4 col-lg-3 mb-3" key={contact.id}>
+          <div className="col-sm-12 col-md-6 col-lg-4 mb-3" key={contact.id}>
             <Contact contact={contact} />
           </div>
         ))}
